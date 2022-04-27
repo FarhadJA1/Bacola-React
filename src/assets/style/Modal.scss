@@ -1,0 +1,76 @@
+$grey:rgb(124, 124, 124);
+$blue:#429dff;
+$font:sans-serif;
+.select-location{
+    height: 56px;
+    border: 1px solid rgb(201, 200, 200);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+    .btn-light{
+        position: relative;
+        background-color: transparent;
+        height: 100%;
+        border: none;
+        &:hover{
+            background-color: transparent;
+        }
+        &:focus{
+            box-shadow: none;
+        }
+    }
+    .your-location-text{
+        font-size: 12px;
+        height: 10px;
+        color: rgb(163, 161, 161);
+    }
+    .select-location-text{
+        font-size: 14px;
+        height: 10px;
+        font-weight: 600; 
+        color: navy;
+    }
+    i{
+        position: absolute;
+        top: 40%; right: 10%; 
+        color: grey;
+    }
+    .modal-title{
+        font-weight: 600;
+    }
+    .modal-info{
+        text-align: center;
+        font-size: 14px;
+        color: $grey;
+    }
+    .modal-body{
+        .search-area{
+            border-radius: 10px;
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        .select{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid rgb(201, 200, 200);
+            a{
+                text-decoration: none;
+                color: grey;
+                &:hover{
+                    color: navy;
+                }
+            }
+            span{
+                font-size: 12px;
+                border: 1px solid rgb(201, 200, 200);
+                border-radius: 20px;
+                padding: 5px;
+                color: rgb(201, 200, 200);
+            }
+        }
+    }
+    
+}

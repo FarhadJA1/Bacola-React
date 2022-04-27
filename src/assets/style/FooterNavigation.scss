@@ -1,0 +1,27 @@
+$grey:rgb(124, 124, 124);
+$blue:#429dff;
+$font:sans-serif;
+.custom-col{
+    width: 20% !important;
+}
+.navigation{
+    background-color: rgb(240, 240, 240);
+    .custom-col{
+        ul{
+            padding-top: 35px;
+            li{
+                list-style: none;
+                h6{
+                    color: grey;
+                    font-family: sans-serif;
+                }
+                a{
+                    text-decoration: none;
+                    color: rgb(150, 150, 150);
+                    font-family: sans-serif;
+                }
+            }
+        }
+        
+    }
+}

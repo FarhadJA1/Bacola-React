@@ -1,0 +1,25 @@
+.search{
+    position: relative;
+    margin-left: 10px;
+    height: 56px;
+
+    
+    input{
+        position: absolute;
+        z-index: 0;
+        height: 100%;
+        border-radius: 10px;
+        background-color: rgb(219, 219, 219);
+    
+        &:focus{
+            box-shadow: none;
+        }
+    }
+    i{
+        position: absolute;
+        z-index: 1;
+        right: 7%;
+        top: 40%;
+    }
+    
+}

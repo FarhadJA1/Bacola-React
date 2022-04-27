@@ -1,0 +1,19 @@
+$grey:rgb(124, 124, 124);
+$blue:#429dff;
+$font:sans-serif;
+.logo{
+    text-align: center;
+    margin-right: 15px;
+    cursor: pointer;
+    
+    
+    img{
+        width: 100%;
+        
+    }
+    span{
+        font-size: 13px;
+        color: $grey;
+        font-family: $font;
+    }
+}

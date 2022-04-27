@@ -1,0 +1,42 @@
+$grey:rgb(124, 124, 124);
+$blue:#429dff;
+$font:sans-serif;
+.subscribe{
+    background-color: rgb(30, 30, 129);
+    .subscribe-content{
+        padding-top: 44px;
+        .subscribe-info{
+            color: white;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+        .subscribe-advert{
+            color: white;
+            font-size: 30px;
+            font-family: sans-serif;
+        }
+        .subscribe-text{
+            color: rgb(173, 171, 171)
+        }
+        .input-group{
+            i{
+                font-size: 30px;
+                border: 1px solid white;
+                background-color: white;
+                width: 40px;
+                color: $grey;
+                text-align: center;
+            }
+        }
+        .subscribe-btn{
+            background-color: white;
+            color: navy;
+            &:hover{
+                background-color: navy;
+                color: white;
+            }
+        }
+    }
+    
+   
+}

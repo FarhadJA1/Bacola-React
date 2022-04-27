@@ -1,0 +1,42 @@
+$grey:rgb(124, 124, 124);
+$blue:#429dff;
+$font:sans-serif;
+.nav-buttons{
+    ul{
+        display: flex;
+        justify-content: space-between;
+        li{
+            list-style: none;
+            
+            button{
+                a{
+                    text-decoration: none;
+                    color: rgb(59, 58, 58)
+
+                }
+                
+                background-color: transparent;
+                ;
+                border-radius: 20px;
+                
+                
+                &:hover{
+                    color: $blue;
+                    background-color: #cde2f8
+                    
+
+                }
+                &:hover i{
+                    color: $blue;
+                }
+                &:hover a{
+                    color: $blue;
+                }
+                i{
+                    color: transparent;
+                }
+                
+            }
+        };
+    }
+}

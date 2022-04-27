@@ -1,0 +1,36 @@
+.big-shortcuts{
+    height: 280px;
+    .card{
+    cursor: pointer;
+
+        .card-img-overlay{
+            padding-top: 10%;
+            .left-first{
+                color: rgb(255, 60, 0);
+                font-family: sans-serif;
+            }
+            .right-first{
+                color: rgb(255, 60, 0);
+                font-family: sans-serif;
+            }
+            .card-title{
+                color: rgb(90, 89, 89);
+            }
+            .second{
+                color: rgb(90, 89, 89);
+                font-size: 13px;
+            }
+            .shortcut-btn-left{
+                border-radius: 20px;
+                background-color: rgb(6, 6, 168);
+                border: none;
+            }
+            .shortcut-btn-right{
+                border-radius: 20px;
+                background-color: rgb(255, 51, 51);
+                border: none;
+            }
+        }
+    }
+
+}
